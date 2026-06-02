@@ -12,20 +12,20 @@ col1,col2,col3,col4 = st.columns(4)
 
 with col1:
     st.header("Cat")
-    st.image("https://static.streamlit.io/example/cat.jpg")
-with col2:
+    st.image("https://static.streamlit.io/examples/cat.jpg")
+with col2: 
     st.header("Dog")
-    st.image("https://static.streamlit.io/example/dog.jpg")
+    st.image("https://static.streamlit.io/examples/dog.jpg")
 with col3:
     st.header("Owl")
-    st.image("https://static.streamlit.io/example/owl.jpg")
+    st.image("https://static.streamlit.io/examples/owl.jpg")
 with col4:
     st.header("Owl")
-    st.image("https://static.streamlit.io/example/owl.jpg")
+    st.image("https://static.streamlit.io/examples/owl.jpg")
 
 
 
-houhou.slidebar.selectbox(
+houhou = st.sidebar.selectbox(
     "連絡方法を選択してください",
     ("メール","携帯電話","LINE")
 )
